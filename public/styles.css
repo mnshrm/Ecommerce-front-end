@@ -1,6 +1,7 @@
-/* body {
-  margin: 0;
-} */
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #eaeded;
+}
 
 #grid {
   display: grid;
@@ -19,7 +20,6 @@
 }
 /* Navbar */
 .navbar {
-  font-family: "Work Sans", sans-serif;
   display: flex;
   justify-content: space-between;
 }
@@ -37,7 +37,7 @@
   height: 40px;
   border-radius: 50%;
   align-self: center;
-  border: 2px solid white;
+  border: 2px solid #eaeded;
 }
 
 .avatar:hover {
@@ -78,6 +78,52 @@
 .navigation li .navLink:hover::after {
   width: 100%;
   transition: width 0.3s ease-in-out;
+}
+
+/* Category */
+.category {
+  color: white;
+  margin: 0.5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category .heading {
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0;
+}
+.category button {
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 10px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  transition: all 0.3s ease-in;
+  border-radius: 10px;
+}
+.category button:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+
+.category .heading::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 4px;
+  background: coral;
+  transition: width 0.3s ease-in;
+}
+
+.category .heading:hover::after {
+  width: 70%;
+  transition: width 0.3s ease-out;
 }
 
 /* Offer */
