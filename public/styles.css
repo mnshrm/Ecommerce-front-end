@@ -1,0 +1,88 @@
+/* body {
+  margin: 0;
+} */
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 10vh repeat(2, 45vh) repeat(2, 50vh) 30vh;
+
+  column-gap: 1px;
+  row-gap: 1px;
+}
+/* Navbar, Offer, Footer common grid layout*/
+.navbar,
+.offer,
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* Navbar */
+.navbar {
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.brand {
+  font-size: 32px;
+  display: inline-block;
+  align-self: center;
+}
+.navOptions {
+  align-self: center;
+}
+.avatar {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-self: center;
+  border: 2px solid white;
+}
+
+.avatar:hover {
+  border: 2px solid coral;
+  transition: border 0.3s;
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+.navigation li .navLink,
+.avatarLink {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 1px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.navigation li .navLink::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: coral;
+  transition: width 0.3s ease;
+}
+
+.navigation li .navLink:hover::after {
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Offer */
+
+/* For temporary use */
+.item {
+  background-color: black;
+}
