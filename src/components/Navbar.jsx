@@ -7,17 +7,17 @@ function Navbar() {
       <div className="navOptions">
         <ul className="navigation">
           <li>
-            <button className="navLink">Shop</button>
+            <button className="navLink noButtonStyle">Shop</button>
           </li>
           <li>
-            <button className="navLink">About us</button>
+            <button className="navLink noButtonStyle">About us</button>
           </li>
           <li>
-            <button className="navLink">Cart</button>
+            <button className="navLink noButtonStyle">Cart</button>
           </li>
           <li>
             <span>
-              <button className="avatarLink">
+              <button className="avatarLink noButtonStyle">
                 <img
                   className="avatar"
                   src="https://media-exp2.licdn.com/dms/image/D4D35AQHQMJ-_tcRwCw/profile-framedphoto-shrink_100_100/0/1655535867905?e=1657875600&v=beta&t=uNP_ovslEClnC2OwBaSr745mN_0Nw9Z2ZnPXvyYA3Ps"
