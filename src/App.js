@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Category from "./components/Category";
 import FinalFooter from "./components/FinalFoo";
 import PreFooter from "./components/PreFoo";
+import Offer from "./components/Offer";
 
 function App() {
   return (
@@ -23,8 +24,8 @@ function App() {
         name="Accessories"
         src="https://ucarecdn.com/330475bb-f164-4b43-9cd0-c760d66dbb63/headphones.jpg"
       />
-      <div className="offer item"></div>
-      <div className="offer item"></div>
+      <Offer />
+      <Offer />
       <PreFooter />
       <FinalFooter />
     </div>

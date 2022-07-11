@@ -1,4 +1,5 @@
 import React from "react";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 function Navbar() {
   return (
@@ -13,7 +14,9 @@ function Navbar() {
             <button className="navLink noButtonStyle">About us</button>
           </li>
           <li>
-            <button className="navLink noButtonStyle">Cart</button>
+            <button id="icon" className="navLink noButtonStyle">
+              <ShoppingCartIcon />
+            </button>
           </li>
           <li>
             <span>
