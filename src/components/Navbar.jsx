@@ -23,7 +23,7 @@ function Navbar() {
               <button className="avatarLink noButtonStyle">
                 <img
                   className="avatar"
-                  src="https://media-exp2.licdn.com/dms/image/D4D35AQHQMJ-_tcRwCw/profile-framedphoto-shrink_100_100/0/1655535867905?e=1657875600&v=beta&t=uNP_ovslEClnC2OwBaSr745mN_0Nw9Z2ZnPXvyYA3Ps"
+                  src="https://media-exp2.licdn.com/dms/image/D4D35AQHQMJ-_tcRwCw/profile-framedphoto-shrink_100_100/0/1655535867905?e=1658761200&v=beta&t=UGiWRovNt2Gl-GmuH7CI-H4s4cVeOs-5V4qUuWjBkJc"
                   alt="error"
                 />
               </button>

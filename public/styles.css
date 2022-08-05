@@ -18,7 +18,7 @@ body {
 #grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 8vh repeat(2, 45vh) repeat(2, 60vh) 30vh 7vh;
+  grid-template-rows: 9vh repeat(2, 45vh) repeat(2, 60vh) 30vh 7vh;
 
   /* column-gap: 1px; */
   /* row-gap: 1px; */
@@ -183,6 +183,19 @@ body {
   cursor: pointer;
   color: coral;
   transition: color 0.3s;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80% 1fr;
+  padding: 10px;
+  /* background-color: black; */
+}
+.product .productImage {
+  width: 60%;
+  justify-self: center;
+  align-self: end;
 }
 
 /* PreFooter */
